@@ -142,6 +142,7 @@ export default defineComponent({
         .get('/api/vueSpringTest/test2')
         .then((response) => {
           console.log('resultData', response.data);
+          console.log('resultData2', response.data);
         })
         .catch((error) => {
           console.error(error);
