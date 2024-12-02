@@ -8,9 +8,9 @@ import { RouterLink, RouterView } from 'vue-router'
 <template>
   <div class="greetings">
     <div id="nav">
-      <RouterLink to="/">Home</RouterLink> |
-      <RouterLink to="/about">About</RouterLink> |
+      <RouterLink to="/">Home</RouterLink> | <RouterLink to="/about">About</RouterLink> |
       <RouterLink to="/board/BoardList">게시판</RouterLink>
+      <RouterLink to="/board/AgGridPage">ag grid test</RouterLink>
     </div>
     <!-- <h1 class="green">{{ msg }}</h1> -->
     <!-- <h3>
